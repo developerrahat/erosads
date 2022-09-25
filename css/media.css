@@ -1,0 +1,170 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .container{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .my_signup_form{
+        padding:10px;
+    }
+    .my_signup_form{
+        margin-bottom:60px;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+      }
+    .fb_right_text p{
+        font-size: 13px !important;
+    }
+    .fb_text p{
+        font-size: 13px;
+    }
+    .header_menu li a{
+        margin: 10px 0;
+    }
+    .header_menu li:first-child::before{
+        content: "\f025";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+    .header_menu li:nth-child(2)::before{
+        content: "\3f";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+    .header_menu li:last-child::before{
+        content: "\24";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    .my_signup_form{
+        margin-bottom:60px;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+      }
+    .fb_right_text p{
+        font-size: 13px !important;
+    }
+    .fb_text p{
+        font-size: 13px;
+    }
+    .header_menu li a{
+        margin: 10px 0;
+      }
+   
+    .header_menu li a{
+        margin: 10px 0;
+    }
+    .header_menu li:first-child::before{
+        content: "\f025";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+    .header_menu li:nth-child(2)::before{
+        content: "\3f";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+    .header_menu li:last-child::before{
+        content: "\24";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+   
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    .my_signup_form{
+        margin-bottom:60px;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+      }
+    .fb_right_text p{
+        font-size: 13px !important;
+    }
+    .fb_text p{
+        font-size: 13px;
+    }
+    .header_menu li a{
+        margin: 10px 0;
+    }
+    .header_menu li:first-child::before{
+        content: "\f025";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+    .header_menu li:nth-child(2)::before{
+        content: "\3f";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+    .header_menu li:last-child::before{
+        content: "\24";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 600;
+        margin-right: 6px;
+        color: #fff;
+        opacity: .7;
+    }
+   
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

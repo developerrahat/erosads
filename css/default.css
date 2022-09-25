@@ -1,0 +1,72 @@
+/* ========================GLOBAL STYLE CSS START HERE======================
+/* .........Typhography.......... */
+body{
+    background:#0a0a0a;
+}
+@font-face {
+    font-family:"Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:"Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:"Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family:"Roboto-Medium";
+}
+a,
+a:hover,
+a:focus,
+a:active{
+    text-decoration: none;
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+p{
+    font-family:"Roboto-Regular";
+}
+p{
+  text-shadow: none;
+}
+img{
+    width: 100%;
+}
+ul{
+    padding-left: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+/*input and button type focus all disable*/
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=number]:focus,
+textarea:focus,
+input[type=button]:focus,
+input[type=reset]:focus,
+input[type=submit]:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+/* ======================GLOBAL STYLE CSS END HERE============================= */

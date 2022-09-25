@@ -1,0 +1,226 @@
+/*....................MAIN HEADER MENU CSS START HERE........................*/
+.container{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.header_area{
+  padding: 0 !important;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header_area nav{
+  padding: 2px 0;
+}
+.header_logo{
+  font-family:"Roboto-Bold";
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #efbe00 !important;
+  letter-spacing: 1px;
+}
+.header_logo span{
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+.header_menu li a{
+  display: inline-block;
+  margin: 0 40px;
+  padding: 0 !important;
+  color: rgba(255,255,255,.87);
+  opacity: .7;
+  transition: .4s ease-in-out;
+  font-size: 14px;
+  position: relative;
+}
+.header_menu li a::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: -2px;
+  background:#efbe00;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.header_menu li a:hover::after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.header_menu li a:hover{
+  color:#efbe00;
+}
+.toggoler_icons{
+  color: #fff;
+}
+/*....................MAIN HEADER MENU CSS end HERE........................*/
+
+
+/* ----------signin form css start----------- */
+.signup_form{
+  padding-top:70px !important;
+  padding: 20px 0;
+  padding-bottom:60px !important;
+}
+.my_signup_form{
+  padding:25px;
+  padding-bottom:40px !important;
+  background: #000;
+  border-radius:6px;
+}
+.my_signup_form h3{
+  font-size: 16px;
+  color: #fff;
+  margin-bottom:40px;
+}
+.remember_me{
+  font-family:"Roboto-Light";
+  color: #fff;
+}
+.forgot_pass a{
+  font-family:"Roboto-Light";
+  color: #efbe00;
+}
+
+.my_custom_style{
+  margin-bottom:15px;
+  height: 60px;
+  background: #ededed;
+  border-bottom: 2px solid transparent;
+  transition: .4s;
+
+}
+.my_custom_style:focus{
+  border-bottom: 2px solid #ef1400 !important;
+}
+
+.form_rel{
+  position: relative;
+}
+.my_signup_form .my_label{
+  position: relative;
+  top:40px;
+  left: 13px;
+  font-family:"Roboto-Regular";
+  color: #6f6f6f;
+  transition: .5s;
+}
+.my_signup_form label span{
+  color: #ef1400;
+}
+
+.login_btn{
+  font-family:"Roboto-Regular";
+  background: none;
+  border: 2px solid #efbe00;
+  text-transform: uppercase;
+  color: #efbe00;
+}
+.login_btn:hover{
+  background: #efbe00;
+  border: 2px solid #efbe00;
+  text-transform: uppercase;
+  color: #fff;
+}
+.login_btn2{
+  border: 2px solid #fff;
+  color: #fff;
+}
+.login_btn2:hover{
+  background: #fff;
+  border: 2px solid #fff;
+  color: #efbe00;
+}
+.form-check .form-check-input{
+  background: transparent;
+  border: 2px solid #a8a5a5;
+  border-radius:2px;
+  transition: .3s ease-in-out;
+}
+.form-check .form-check-input:focus{
+  box-shadow: 0 0 15px 2px #efbe00;
+}
+
+
+.right_contents{
+  color: #fff;
+}
+.right_contents h1{
+  font-family:"Roboto-Medium";
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.right_contents p{
+  text-align: justify;
+  font-size: 14px;
+  font-family:"Roboto-Light";
+}
+
+
+
+/* ----------signin form css end----------- */
+
+/* ---------  signup form css -----------*/
+.signin_forms{
+  background: url(../images/bg.png) no-repeat center center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+.my_signin_form{
+  padding: 15px;
+  padding-top: 25px !important;
+}
+.tems_text p{
+  font-size: 12px;
+  color: #fff;
+}
+.tems_text p span{
+  color: #efbe00;
+}
+/* ---------  signup form css -----------*/
+
+
+
+
+
+
+/* ------------ footer css start ------------ */
+.footer_area{
+  background: #000;
+}
+.footer_top{
+  padding: 20px 0;
+}
+.footer_menu ul li a{
+  display: inline-block;
+  font-family:"Roboto-Light";
+  margin: 10px 0;
+  color: #fff;
+  font-size: 14px;
+  opacity: .7;
+  transition: .4s ease-in-out;
+}
+.footer_menu ul li a:hover{
+  color: #efbe00;
+}
+
+.fb_text p {
+  font-family:"Roboto-Light";
+  color: #dedede;
+}
+.fb_right_text p{
+  font-family:"Roboto-Light";
+  color: #fff;
+  text-align: end;
+}
+.fb_right_text span a{
+  color: #efbe00 !important;
+}
+/* ------------ footer css end ------------ */
