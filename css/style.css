@@ -94,6 +94,7 @@
   background: #ededed;
   border-bottom: 2px solid transparent;
   transition: .4s;
+  /* position: relative; */
 
 }
 .my_custom_style:focus{
@@ -162,6 +163,13 @@
   font-family:"Roboto-Light";
 }
 
+#eye{
+  position: absolute;
+  right: 0;
+  top: 52%;
+  margin-right:15px;
+  font-size: 20px;
+}
 
 
 /* ----------signin form css end----------- */
@@ -184,6 +192,7 @@
 .tems_text p span{
   color: #efbe00;
 }
+
 /* ---------  signup form css -----------*/
 
 
